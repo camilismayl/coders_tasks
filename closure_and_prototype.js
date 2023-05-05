@@ -4,7 +4,7 @@ function Rectangle(width, height) {
 }
 
 Rectangle.prototype.getArea = function () {
-  return (this.width * this.height) / 2;
+  return this.width * this.height;
 };
 
 let figure = new Rectangle(4, 6);
@@ -17,7 +17,7 @@ function add(n) {
   let number = 0;
 
   return function addFunction() {
-    return (number += n);
+    return number += n;
   };
 }
 
