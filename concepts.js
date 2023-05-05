@@ -24,7 +24,6 @@ var isHappy = function (n) {
         let e = n % 10;
         n = Math.floor(n / 10);
         sum += e * e;
-        console.log(e, sum, n);
     }
     if (sum === 1) return true;
     else if (sum > 1 && sum <= 4) return false;
