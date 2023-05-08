@@ -34,6 +34,8 @@ Array.prototype.last = function () {
 };
 console.log([1, 2].last());
 
+/////////////////////////////////////////////////
+
 function Animal(name) {
   this.name = name;
 }
